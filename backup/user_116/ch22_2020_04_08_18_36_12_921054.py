@@ -1,0 +1,7 @@
+t=int(input('tempo em anos'))
+n=int(input('cigarros por dia'))
+nm=(n*1440)
+tm=(t*525600)
+z=(tm*nm*10)
+c=z/(0.00069444)
+print(c)

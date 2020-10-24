@@ -1,0 +1,9 @@
+def pos_arroba(email):
+    i = 0
+    x = list(str(email))
+    l = len(x)
+    while i < l:
+        if x[i] == '@':
+            a = i + 1
+        i += 1
+    print(a)

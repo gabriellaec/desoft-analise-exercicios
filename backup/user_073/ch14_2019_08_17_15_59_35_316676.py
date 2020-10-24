@@ -1,0 +1,6 @@
+import math
+def volume_da_esfera(r):
+    volume = (4/3)*math.pi*(r**3)
+    return volume
+a = volume_da_esfera(5)
+print(a)

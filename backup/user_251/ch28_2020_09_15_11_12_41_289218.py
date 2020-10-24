@@ -1,0 +1,16 @@
+
+num = 1
+soma = 0
+seq = 0
+pg = True
+if pg == True:
+    while seq < 100:
+        soma = num+(num*(1/2))
+        seq += 1
+        num = num*(1/2)
+    if seq == 100:
+        pg == False
+
+print(soma)
+
+print(soma)

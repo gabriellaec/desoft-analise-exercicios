@@ -1,0 +1,6 @@
+s = 0
+i = 1
+while i < 100:
+    s += 1/2**i
+    i += 1
+return s

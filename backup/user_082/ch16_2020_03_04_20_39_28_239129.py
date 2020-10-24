@@ -1,0 +1,3 @@
+conta = float(input('Qual e o valor da conta? ')
+valor= conta * 1.1
+return( "Valor da conta com 10%: R$ {0:.2f}".format(valor))

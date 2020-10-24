@@ -1,0 +1,19 @@
+def raiz_quadrada(x):
+    i=1
+    r=0
+    continua=True
+    y=1 and 2
+    if x!=y:
+        while continua:
+            l=x-i
+            if x<i or l<i:
+                continua=False
+            else:
+                r=r+1
+                i=i+2 
+    if x==1:
+        r=1
+    if x==2:
+        r=2
+    return r
+             

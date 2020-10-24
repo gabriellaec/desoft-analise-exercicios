@@ -1,0 +1,7 @@
+def estritamente_crescente(numeros):
+    i=0
+    while(i<len(numeros)-1):
+        if (numeros[i+1]<numeros[i]):
+            del(numeros[i])
+        i+=1
+    return (numeros)

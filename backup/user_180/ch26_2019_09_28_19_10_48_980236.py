@@ -1,0 +1,6 @@
+dias = input("Me fale quantos dias: ")
+horas = input("Me fale quantos horas: ")
+minutos = input("Me fale quantos minutos: ")
+segundos = input("Me fale quantos segundos: ")
+total = segundos + (minutos*60) + (horas*3600) + (dias*86400)
+print(total) 

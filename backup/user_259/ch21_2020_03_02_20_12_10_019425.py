@@ -1,0 +1,6 @@
+d=int(input("Dias: "))
+h=int(input("Horas: "))
+m=int(input("Minutos: "))
+s=int(input("Segundos: ") )
+total=s+m*60+(h*60**2)+(d*24*60**2)
+print("O total de segundos é {}".format(total)

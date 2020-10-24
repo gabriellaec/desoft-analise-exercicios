@@ -1,0 +1,5 @@
+w=open("macacos-me-mordam.txt", "r")
+x=w.readline()
+y=x.lower()
+z=y.count('banana')
+print(z)

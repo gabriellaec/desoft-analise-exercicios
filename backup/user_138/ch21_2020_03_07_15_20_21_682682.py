@@ -1,0 +1,5 @@
+dias=int(input("quantos dias?"))
+horas=int(input("quantas horas?"))
+minutos=int(input("quantos minutos?"))
+segundos=int(input("quantos segundos"))
+total=segundos+(minutos*60)+(horas*3600)+(dias*86400)

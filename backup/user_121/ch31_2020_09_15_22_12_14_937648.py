@@ -1,0 +1,12 @@
+def eh_primo(teste):
+    if teste%2==0:
+        resultado=False
+    else:
+        i=1
+        while i<teste:
+            if teste%i==0:
+                resultado=False
+            else:
+                resultado=True
+            i+=1
+    return resultado

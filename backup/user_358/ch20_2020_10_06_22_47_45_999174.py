@@ -1,0 +1,8 @@
+distancia=int(input('qual distancia voce deseja percoirrer? '))
+valor=distancia*0.50
+if distancia>200:
+    a=valor+((distancia>200)*0.45)
+    print(a)
+
+else:
+    print(valor)

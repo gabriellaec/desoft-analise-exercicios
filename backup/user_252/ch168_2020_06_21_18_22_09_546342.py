@@ -1,0 +1,1 @@
+def login_disponivel(login, lista)

@@ -1,0 +1,11 @@
+def encontra_maximo(matriz):
+    i = 0
+    mx = matriz[i][i]
+    while i < 3:
+        k = 0
+        while k < 3:
+            if matriz[i][k] > mx:
+                mx = matriz[i][k]
+            k+=1
+        i+=1
+    return mx

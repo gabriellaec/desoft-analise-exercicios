@@ -1,0 +1,6 @@
+d = float(input("Qual a distancia percorrida?"))
+if  d <= 200:
+    v1 = 0.5*d
+elif d > 200:
+    v2 = v1 + (d - 200)*0.45
+print ("O valor cobrado será {0:.2f}".format(v2))

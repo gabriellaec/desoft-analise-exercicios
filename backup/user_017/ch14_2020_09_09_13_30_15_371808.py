@@ -1,0 +1,5 @@
+import math 
+
+def calcula_distancia_do_projetil(v,y0,x):
+    d= ((v**2)/2*9,8)*(1+(1 + ((2*9,8*y0)/(v**2 * (math.sin(x))**2))**0,5) * math.sin(2*x)
+    return d

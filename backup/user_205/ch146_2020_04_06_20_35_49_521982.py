@@ -1,0 +1,1 @@
+def conta_ocorrencias(x): 

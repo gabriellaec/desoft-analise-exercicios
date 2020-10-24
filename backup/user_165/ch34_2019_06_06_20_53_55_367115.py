@@ -1,0 +1,10 @@
+di = float(input("Depósito inicial: "))
+tjp = float(input("Taxa: "))
+i=1
+dep_inicial = di
+juros = tjp
+ganho_total = 0
+while i<=24:
+    ganho = dep_inicial[i]*(juros/100)[i]
+    ganho_total += ganho
+    i+=1

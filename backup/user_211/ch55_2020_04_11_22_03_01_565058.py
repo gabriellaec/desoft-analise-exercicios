@@ -1,0 +1,7 @@
+def encontra_maximo(matriz):
+    lista=[]
+    for i in range(0,3):
+        for j in range(0,3):
+            lista.append(matriz[i][j])
+    lista2=abs(lista)
+    return max(lista2)

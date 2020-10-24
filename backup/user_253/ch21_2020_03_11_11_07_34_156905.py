@@ -1,0 +1,6 @@
+nuemro_de_dias = int(input("numero de dias?' )
+numero_de_horas = int(input('quantidade em horas?' )
+numero_de_minutos = int(input('quantidade em minutos?' )
+numero_de_segundos - int(input('quantidade em sugundos?' )
+  print((((numero_de_dias*24 + numero de horas)*60) + numero_de_minutos)*60 + numero_de_segundos)
+                        

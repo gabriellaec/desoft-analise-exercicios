@@ -1,0 +1,7 @@
+def inverte_lista (lista):
+    i = len(lista)-1
+    lista2 = []
+    while i < len(lista):
+        lista2 += lista[i]
+        i -= 1
+    return lista2

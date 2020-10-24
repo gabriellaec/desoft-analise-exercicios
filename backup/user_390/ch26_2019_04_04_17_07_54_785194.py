@@ -1,0 +1,5 @@
+dia=int(input('dias'))
+horas=int(input('horas'))
+minutos=int(input('minutos'))
+segundos=int(input('segundos'))
+print (dia*86400+ horas*3600+ minutos*60 + segundos)

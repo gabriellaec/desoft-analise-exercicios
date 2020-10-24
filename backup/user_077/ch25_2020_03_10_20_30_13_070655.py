@@ -1,0 +1,11 @@
+import math
+def d(v,θ):
+	y=((v**2)*math.sin(2*θ))/9.8
+if d<98:
+    print('Muito perto')
+else:
+        if 98<=d<=102:
+            print('Acertou!')
+        else:
+            if d>102:
+            	print('Muito longe')

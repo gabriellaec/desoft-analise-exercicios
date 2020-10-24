@@ -1,0 +1,7 @@
+def maior_primo_menor_que(n):
+    c = n
+    while c>=2:
+        if eh_primo(c):
+            return c
+        c -=1
+return -1

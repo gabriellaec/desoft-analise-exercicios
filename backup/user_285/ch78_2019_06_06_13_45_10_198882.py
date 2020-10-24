@@ -1,0 +1,18 @@
+nome=input("digite seu nome: ")
+aceleracao=float(input("digite sua aceleracao: "))
+nomesatletas=[]
+aceleracaoatletas=[]
+while nome!= "sair":
+    nomesatletas.append(nome)
+    aceleracaoatletas.append(aceleracao)
+    nome=input("digite seu nome: ")
+	aceleracao=float(input("digite sua aceleracao: "))
+nome=input("digite seu nome: ")
+    
+def calcula_tempo(atletas):
+    tempo={}
+    for corredor,aceleracao in atletas.items():
+        vf=(200*aceleracao)**0.5
+        t=vf/aceleracao
+        tempo[corredor]=t
+    return tempo

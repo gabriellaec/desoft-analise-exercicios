@@ -1,0 +1,13 @@
+def PiWallis(n):
+    serie = 1
+    a = 0
+    b = 1 # não pode dividir por zero
+    i = 0
+    while i < n:
+        if i%2 != 0:
+            b += 2
+        else:
+            a += 2 
+        i += 1
+        serie *= (a/b)
+    return serie*2

@@ -1,0 +1,10 @@
+deposito_inicial = float(input("Qual foi o deposito inicial? "))
+poupanca = float(input("Qual a taxa de juros da poupanca? "))
+mes = 0
+total = 0
+while mes < 24:
+    mensal = (mes * poupanca) * deposito_inicial + deposito_inicial
+    print(f"Rendimento do mes foi de {mensal:.2f}")
+    mes += 1
+total = mensal - deposito_inicial
+print(f"Rendimento total foi de {total:.2f}")

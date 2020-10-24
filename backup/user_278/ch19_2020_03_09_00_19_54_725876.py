@@ -1,0 +1,8 @@
+def classifica_triangulo (lado1,lado2,lado3):
+    if lado1 = lado2 = lado3:
+        return "equilátero"
+    elif lado1 = lado2:
+        return "isósceles"
+    else lado1 != lado2 != lado3:
+        return "escaleno"
+print (classifica_triangulo(1,1,1))

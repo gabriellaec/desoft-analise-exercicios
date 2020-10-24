@@ -1,0 +1,8 @@
+n=int(input("digite um numero")
+soma=0
+while n!= 0:
+      soma+=n
+
+print (soma)
+      
+      

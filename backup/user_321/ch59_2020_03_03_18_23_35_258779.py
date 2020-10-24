@@ -1,0 +1,2 @@
+asteriscos = '*'*n
+print(asteriscos)

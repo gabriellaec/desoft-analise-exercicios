@@ -1,0 +1,21 @@
+nome = input("Digite o nome do atleta ou escolha sair: ") 
+nomes_aceleração = dict()
+
+while nome != 'sair':
+    aceleração = float(input("Digite a aceleração do atleta: "))
+    nomes_aceleração[nome] = aceleração
+    nome = input("Digite o nome do atleta ou escolha sair: ")
+
+def calcula_menor_tempo(nomes_aceleração):
+    nomes_tempo = dict()
+    for i in nomes_aceleração:
+        t = (200/nomes_aceleração[i])**(1/2)
+        nomes_tempo[i] = t
+    for i in nomes_tempo:
+        if nomes_tempo[i] < nomes_tempo[i]:
+            del nomes_tempo[i]
+    return nomes_tempo
+
+vencedor = calcula_menor_tempo(nomes_aceleração)
+
+print ('O vencedor é {o} com tempo de conclusão de {1} s'.format(vencedor,vencedor.values))

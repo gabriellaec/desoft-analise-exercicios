@@ -1,0 +1,1 @@
+print(int(input("Cigarros po dia"))*365*int(input("Anos"))/144)

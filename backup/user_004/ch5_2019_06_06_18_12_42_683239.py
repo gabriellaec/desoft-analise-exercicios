@@ -1,0 +1,24 @@
+def primo(n):
+    if n == 2:
+        return True
+    if n%n==0 and n%1==0 and n%2==0:
+        return False
+    elif n%n==0 and n%1==0 and n%5==0:
+        return False
+    elif n%n==0 and n%1==0 and n%3==0:
+        return False
+    else:
+        return True
+
+def maior_primo_menor_que(n):
+    if n <= 1:
+        return -1
+    a = False
+    if primo(n) == True:
+        return n
+    else:
+        while a != True:
+            n-=1
+            if primo(n) == True:
+                a = True
+        return n

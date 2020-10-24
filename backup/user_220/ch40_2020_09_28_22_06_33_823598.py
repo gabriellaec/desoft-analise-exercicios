@@ -1,0 +1,4 @@
+lista=[1,2,3,4,5]
+def soma_valores(lista):
+    return lista[0] + lista[1] + lista[2] + lista[3] + lista[4] 
+print(soma_valores(lista))

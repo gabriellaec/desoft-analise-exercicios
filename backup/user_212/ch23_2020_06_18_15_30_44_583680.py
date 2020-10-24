@@ -1,0 +1,11 @@
+velo = float(input("Qual a velocidade do carro?"))
+
+if velo > 80:
+    km = velo-80
+    multa = km*5
+    retorno = "o usuário foi multado. Multa: R${0:.2f}".format(multa)
+elif velo <= 80:
+    retorno = 'Não foi multado'
+    
+print(retorno)
+                   

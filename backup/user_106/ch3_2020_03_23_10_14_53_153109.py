@@ -1,0 +1,1 @@
+f(x, \mu, \sigma) = \frac{1}{\sigma\sqrt{2\pi}}e^{(-0,5(\frac{x-\mu}{\sigma})^2)}

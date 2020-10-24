@@ -1,0 +1,3 @@
+def asteriscos:
+    
+print(('*')*asteriscos)

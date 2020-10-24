@@ -1,0 +1,3 @@
+def asteriscos (n):
+    asteriscos = int(input('n'))
+print('*'*asteriscos)

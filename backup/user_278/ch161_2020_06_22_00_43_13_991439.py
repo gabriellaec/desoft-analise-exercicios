@@ -1,0 +1,14 @@
+def PiWallis(n):
+    for x in range(1,n):
+        n = 0
+        d = 1
+        pi = 1
+        #if x não é divisivel por 2
+        if x%2 != 0:
+            n += 2
+            pi *= n/d
+        #if x é divisivel por 2
+        else:
+            d += 2
+            pi *= n/d
+    return pi*2

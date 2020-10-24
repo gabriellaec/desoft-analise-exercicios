@@ -1,0 +1,10 @@
+def classifica_idade (Idade):
+    if Idade <= 11:
+        clase = "crianca" 
+    elif Idade <= 17 or Idade >= 12:
+        clase = "adolescente"
+    else:
+        clase = "adulto"
+        
+    return clase
+print (classifica_idade (12))

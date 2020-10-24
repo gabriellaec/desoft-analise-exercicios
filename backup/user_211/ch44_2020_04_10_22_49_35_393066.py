@@ -1,0 +1,7 @@
+meses=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']
+n=input("qual o nome do mês?")
+for word in meses:
+    if meses[i]==n:
+        numero=meses.index(i)+1
+        print(numero)
+        

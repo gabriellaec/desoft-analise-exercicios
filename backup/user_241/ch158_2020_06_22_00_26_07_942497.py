@@ -1,0 +1,5 @@
+arquivo = open('texto.txt','r')
+string = arquivo.read()
+arquivo.close()
+lista = string.split()
+print(len(lista))

@@ -1,0 +1,11 @@
+def primeiras_ocorrencias(pal):
+    dic={}
+    palavra=[]
+    listaocorrencia=[]
+    for i in range(len(pal)):
+        if i not in palavra:
+        	palavra.append(i)
+        	dic[palavra[i]]=listaocorrencia[i]
+    return dic
+
+        

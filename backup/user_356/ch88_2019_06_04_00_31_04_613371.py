@@ -1,0 +1,8 @@
+class Retangulo():
+    def __init__(self, Ponto):
+        self.esq = Ponto.x
+        self.dir = Ponto.y
+    def calcula_perimetro(self, Ponto):
+        return self.esq*2+self.dir*2
+    def calcula_area(self):
+        return self.esq*self.dir

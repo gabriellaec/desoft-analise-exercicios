@@ -1,0 +1,1 @@
+print('Valor da conta com 10%: R$ '+ str(round(0.1 * int(input('valor')), 2)))

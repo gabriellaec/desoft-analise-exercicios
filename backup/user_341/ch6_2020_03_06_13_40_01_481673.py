@@ -1,0 +1,5 @@
+def celsius_para_fahrenheit(c):
+    (f - 32)/9 = c / 5
+    return f
+
+    

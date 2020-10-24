@@ -1,0 +1,17 @@
+def estritamente_crescente(lista):
+    listanova=[]
+    if lista==[ ]:
+        listanova=listanova
+    else:
+        listanova.append(lista[0])
+    i=1
+    u=0
+    while i<len(lista):
+        while lista[u]<lista[i]:
+            u+=1
+        if u==i:
+            listanova.append(lista[i])
+        i+=1
+    return listanova
+        
+        

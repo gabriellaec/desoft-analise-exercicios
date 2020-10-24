@@ -1,0 +1,28 @@
+def classifica_lista(l1):
+    new = list()
+    new.append(l1[0])
+    cont = 0
+    cont1 = 0
+    
+    for i in range(0,len(l1)-1):
+        if l1[i+1] > l1[i]:
+            cont += 1
+        else:
+            break
+          
+    for i in range(0,len(l1)-1):
+        if l1[i+1] < l1[i]:
+            cont1 += 1
+            
+    
+    if cont > 2 :
+        return 'crescente'
+    
+    elif cont1 > 2 :
+        return 'decrescente'
+    
+    elif cont < 2 :
+        return 'nenhum'
+    
+    elif cont1 < 2 :
+        return 'nenhum'

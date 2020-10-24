@@ -1,0 +1,6 @@
+d = int(input('Quantos dias?'))
+h = int(input('Quantas horas?'))
+m = int(input('Quantos minutos?'))
+s = int(input('Quantos segundos?'))
+total_segundos = s + (m*60) + (h*3600) + (d*86400)
+print(total_segundos)

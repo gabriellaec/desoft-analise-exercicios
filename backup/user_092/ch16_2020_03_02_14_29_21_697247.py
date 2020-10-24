@@ -1,0 +1,3 @@
+a=float(input("conta do restaurante: "))
+b=a*1.1
+print("valor da conta com 10%: R$%.2f"%b)

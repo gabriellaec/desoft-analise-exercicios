@@ -1,0 +1,8 @@
+
+def classifica_idade():
+    if id<=11:
+        return ('crianca')
+    elif id<=17:
+        return ('adolescente')
+    else:
+        return ('adulto')

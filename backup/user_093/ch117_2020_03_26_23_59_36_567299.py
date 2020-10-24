@@ -1,0 +1,14 @@
+import math
+from math import asin
+
+def radianos(x1):
+	a=(x1*math.pi)/180
+	return a
+
+def graus(x1):
+    b=(180*x1)/math.pi
+    return b
+def snell_descartes(n1,n2,x1):
+    y=graus*(math.asin((n1/n2)*math.sin(radianos(x1)))
+	return y
+             

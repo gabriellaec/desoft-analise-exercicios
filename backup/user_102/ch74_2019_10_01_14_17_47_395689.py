@@ -1,0 +1,1 @@
+def conta_bigramas(texto):\n	contagem = {}\n	for letra in texto:\n		if not letra in contagem:\n			contagem[letra] = 1\n		else:\n			contagem[letra] += 1\n	return contagem

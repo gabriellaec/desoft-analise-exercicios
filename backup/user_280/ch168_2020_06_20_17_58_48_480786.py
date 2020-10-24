@@ -1,0 +1,20 @@
+def login_disponivel(string, lista):
+    i = 0
+    indice = 0
+    while i < len(lista):
+        j = 1
+        newstr = ''
+        while j < len(lista):
+            if lista[i] == string:
+                indice += j
+            else:
+                j+=1
+        i+=1
+    if indice == 0:
+        return string
+    else:
+        return string + str(indice)
+            
+
+            
+        

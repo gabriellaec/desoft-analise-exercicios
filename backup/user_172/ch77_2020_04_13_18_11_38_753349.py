@@ -1,0 +1,7 @@
+def calcula_tempo(dic1):
+    dic2[nome] = t
+    a = 200/t**2
+    dic1[nome] = a
+    for a in dic1:
+        dic2[nome] = t
+    return dic2

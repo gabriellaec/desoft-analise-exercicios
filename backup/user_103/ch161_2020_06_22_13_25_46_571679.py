@@ -1,0 +1,15 @@
+def PiWallis(n):
+    for i in range(n):
+        if n == 1 :
+            return 4.0
+        else:
+            pi = 2.0
+            esquerda = float((2 * i)/(2 * i - 1))
+            direita = float ((2 * i)/(2 * i + 1))
+            total = pi* esquerda * direita
+            total*=total
+        return total
+                    
+        
+        
+    

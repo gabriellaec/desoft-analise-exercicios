@@ -1,0 +1,6 @@
+arquivo = open('macacos-me-mordam.txt','r')
+s = arquivo.read()
+arquivo.close()
+s = s.upper()
+n = s.count('BANANA')
+print(n)

@@ -1,0 +1,5 @@
+num=int(input('Quantidade de dias'))
+num=int(input('Quantidade de horas'))
+num=int(input('Quantidade de minutos'))
+num=int(input('Quantidade de segundos'))
+print=(str(dias*24*60*60+horas*60*60+minutos*60+segundos))

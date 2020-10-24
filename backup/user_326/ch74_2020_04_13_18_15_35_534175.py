@@ -1,0 +1,25 @@
+def conta_bigramas(string):
+    dicionario = {}
+    lista_letras = list(string)
+    for indice in range(len(lista_letras)):
+        if indice == 0:
+            bigrama = lista_letras[indice] + lista_letras[indice + 1]
+            dicionario[bigrama] = 1
+        elif indice < len(lista_letras) - 1:
+            bigrama_para_tras  = lista_letras[indice - 1] + lista_letras[indice]
+            bigrama_para_frente = lista_letras[indice] + lista_letras[indice + 1]
+            if bigrama_para_tras in dicionario:
+                dicionario[bigrama_para_tras] += 1
+            elif bigrama_para_frente in dicionario:
+                dicionario[bigrama_para_frente] += 1
+            else:
+                dicionario[bigrama_para_frente] = 1
+                dicionario[bigrama_para_tras] = 1
+        else:
+            bigrama_final = lista_letras[indice - 1] + lista_letras[indice] 
+            if bigrama_final in dicionario:
+                dicionario[bigrama_final] += 1
+            else:
+                dicionario[bigrama_final] = 1
+    print(dicionario)
+    return dicionario

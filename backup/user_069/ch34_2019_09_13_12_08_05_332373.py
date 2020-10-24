@@ -1,0 +1,10 @@
+valor = float(input('Qual o valor do depósito? '))
+juros = float(input('Qual a taxa de juros? '))
+mes = []
+i = 0
+mes[0] = valor
+while 24 >= i:
+	mes[i] = mes[i - 1]*juros
+    i += 1
+print(mes) 
+    

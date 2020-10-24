@@ -1,0 +1,1 @@
+import math\ndef jaca(v, o):\n    a = (o/180.0)*math.pi\n    d = (((v**2.0)*math.sin(2.0*a))/9.8)\n    if d < 98.0:\n        return ('Muito perto')\n    elif d >= 98.0 and d <= 102.0:\n        return ('Acertou!')\n    else:\n        return ('Muito longe')\nv = float(input("velocidade"))\no = float(input("angulo"))\nprint(jaca(v, o))

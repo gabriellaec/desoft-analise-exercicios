@@ -1,0 +1,6 @@
+D = input('Entre com o número de dias: ')
+H = input('Entre com o número de horas: ')
+M = input('Entre com o número de minutos: ')
+S = input('Entre com o número de segundos: ')
+T = imput( D*86400 + H*3600 + M*60 + S )
+print(t) 

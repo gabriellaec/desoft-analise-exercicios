@@ -1,0 +1,34 @@
+import random
+d=100
+print(d)
+v=input('valor da aposta:')
+v=int
+while v>0 and d>0:
+    a=input('aposta')
+    if a=n:
+        rr=random.randint(1,36)
+        r=input('numero entre 1 e 36')
+        r=int
+        if rr=r:
+            d=v*35+d
+        else:
+            d=d-v
+    else:
+        pi=input('impar ou par?')
+        s=random.randint(0,36)
+        if p=pi:
+            if s%2=0:
+                d=d+v
+            else:
+                d=d-v
+        else:
+            if p%2!=0:
+                d=d+v
+            else:
+                d=d-v
+print(d)                
+if d=0 break
+
+            
+        
+    

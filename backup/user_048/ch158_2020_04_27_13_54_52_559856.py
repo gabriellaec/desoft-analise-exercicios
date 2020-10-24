@@ -1,0 +1,18 @@
+from collections import Counter
+with open("texto.txt", "r") as file:
+    w=file.readlines()
+x=",".join(w)
+
+def word_count(str):
+    counts = dict()
+    palavras = str.split()
+    words=palavras.replace(",","")
+
+    for word in words:
+        if word in counts:
+            counts[word] += 1
+        else:
+            counts[word] = 1
+    return counts
+
+print(word_count(x))

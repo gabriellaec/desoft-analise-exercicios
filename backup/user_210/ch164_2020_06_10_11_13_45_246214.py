@@ -1,0 +1,5 @@
+def traduz(lista, dic):
+    port = []
+    for each in lista:
+        port.append(dic[lista])
+    return lista

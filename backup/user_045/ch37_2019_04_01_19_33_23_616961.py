@@ -1,0 +1,16 @@
+def imprime_primos(n):
+    i=2
+    c=1
+    
+    while c<n:
+        if teste(i): 
+            c+=1 
+            print(i)
+        i+=1
+    while i<900000000000000000000000000000000000000000000000000000000000000:
+        if teste(i):
+            return i
+        i+=1
+    
+
+    

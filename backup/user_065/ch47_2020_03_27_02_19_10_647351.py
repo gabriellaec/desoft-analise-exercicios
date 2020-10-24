@@ -1,0 +1,11 @@
+def estritamente_crescente(lista):
+    result = []
+    result.append(lista[0])
+    print(lista)
+    n = 0
+    while n < (len(lista) - 1):
+        if lista[n + 1] > result[n]:
+            result.append(lista[n + 1])
+            print(result)
+        n += 1
+    return result

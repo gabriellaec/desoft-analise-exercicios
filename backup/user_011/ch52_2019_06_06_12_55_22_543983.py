@@ -1,0 +1,1 @@
+def eh_crescente(lista

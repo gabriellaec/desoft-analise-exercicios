@@ -1,0 +1,7 @@
+def junta_nome_sobrenome(nome,sobrenome):
+    i=0
+    composto=[]
+    while i<len(nome):
+        composto.append('{0} {1}'.format(nome[i],sobrenome[i]))
+        i+=1
+    return composto

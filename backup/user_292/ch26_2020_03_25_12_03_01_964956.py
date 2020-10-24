@@ -1,0 +1,8 @@
+c=float(input('qual o valor da casa?'))
+s=float(input('quanto ganha?'))
+a=float(input('quantos anos demora para pagar?'))
+p=c/a
+if p>=(s*0.3):
+    print('Empréstimo aprovado')
+else:
+    print('Empréstimo não aprovado')

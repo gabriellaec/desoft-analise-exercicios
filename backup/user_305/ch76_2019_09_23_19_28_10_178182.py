@@ -1,0 +1,6 @@
+def aniversariantes_de_setembro(dic):
+    dic2 = {}
+    for k,v in dic.items():
+        if v[4] == "9":
+            dic2[k] = v
+    return dic2

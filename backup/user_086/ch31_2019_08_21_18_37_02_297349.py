@@ -1,0 +1,1 @@
+valor=int(input('Qual o valor da casa a ser comprado? '))

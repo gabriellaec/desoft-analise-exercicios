@@ -1,0 +1,5 @@
+with open("dados.csv","r") as csv:
+    conteudo = csv.read()
+    switch = conteudo.replace(",", " ")
+    with open("dados.tsv","w") as tsv:
+        tsv.write(switch)

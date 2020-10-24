@@ -1,0 +1,5 @@
+arquivo=open("texto.txt", "r")
+conteudo=arquivo.read()
+arquivo.close()
+lista_arquivo=conteudo.split()
+print(len(lista_arquivo))

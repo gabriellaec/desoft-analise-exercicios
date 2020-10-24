@@ -1,0 +1,6 @@
+d = float(input("Quantidade em dias:"))
+h = float(input("Quantidade em horas:"))
+m = float(input("Quantidade em minutos:"))
+s = float(input("Quantidade em segundos:"))
+s = s+(m*60)+(h*3600)+(d*3600*24)
+print("O total em segundos é {0:.2f}".format(s))

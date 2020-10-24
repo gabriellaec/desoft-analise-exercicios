@@ -1,0 +1,10 @@
+import random
+
+dinheiro = 10
+while True:
+    dado1 = random.randint(1, 10)
+    dado2 = random.randint(1, 10)
+    dica1 = int(input("Digite um número: "))
+    dica2 = int(input("Digite um número maior ou igual ao anterior: "))
+    valor_dados = dado1 + dado2
+    valor_dicas = dica1 + dica2

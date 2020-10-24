@@ -1,0 +1,26 @@
+def eh_primo(n):
+    if n < 2:
+        return False
+    if n == 2:
+        return True
+    test = 2
+    while(test < n):
+        if ((n % test) == 0):
+            return False
+        test = test + 1
+    return True
+
+def primos_entre(a,b):
+    result = []
+    
+    while a <= b:
+        if eh_primo(a):
+            result.append(a)
+        a = a + 1
+        
+    return result
+
+def imprime_primos(n):
+    for x in primos_entre(0, n):
+        print(x)
+    return

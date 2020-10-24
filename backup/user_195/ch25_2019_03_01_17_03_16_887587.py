@@ -1,0 +1,6 @@
+pergunta=float(input("Quantos quilometros você deseja percorrer?"))
+if pergunta<=200:
+    a=0.5*pergunta
+else:
+    a=100+(0.45*(pergunta-200))
+print("O preço da passagem é {:.2f}".format(a))

@@ -1,0 +1,1 @@
+with open('macacos-me-mordam.txt', 'r') as arquivo:\n    conteudo = arquivo.read()\n    conteudo = conteudo.lower()\n    split = conteudo.split()\ni = 0\nfor palavra in split:\n    if palavra == 'banana':\n        i +=1\nprint(i)

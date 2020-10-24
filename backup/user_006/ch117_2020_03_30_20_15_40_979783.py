@@ -1,0 +1,5 @@
+import math
+def snell_descartes(n1, n2, x):
+    y=math.asin((n1/n2)*(math.sin(math.radians(x)))
+    z=math.degrees(y)
+    return z

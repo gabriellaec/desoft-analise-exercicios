@@ -1,0 +1,7 @@
+def interseccao_valores(d1,d2):
+    lista = []
+    c = 0
+    for c in d1 and d2:
+        lista.append(d1[c])
+        lista.append(d2[c])
+    return lista

@@ -1,0 +1,6 @@
+d = float(input('Qual a quantidade de dias? ')
+h = float(input('Qual a quantidade de horas? ')
+m = float(input('Qual a quantidade de minutos? ')
+s = float(input('Qual a quantidade de segundos? ')
+x = s+(m*60)+(h*3600)+(d*86400)
+print('O total de segundos é igual a {}'.format(x))

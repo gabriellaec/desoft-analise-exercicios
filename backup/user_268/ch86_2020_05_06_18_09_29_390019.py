@@ -1,0 +1,33 @@
+with open("dados.csv", "r") as arq:
+    cont = arq.read()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

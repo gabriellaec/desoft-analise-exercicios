@@ -1,0 +1,5 @@
+x = int(input('quantos dias? '))
+y = int(input('quantas horas? '))
+z = int(input('quantos minutos? '))
+w = int(input('quantos segundos? '))
+print (w + 60*z + 60*60*y + 24*60*60*x)

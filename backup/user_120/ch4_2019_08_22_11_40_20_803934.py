@@ -1,0 +1,7 @@
+idade=int(input('Coloque a sua idade')) 
+if idade<=11:
+    return 'crianca'
+elif idade > 11 and idade < 18:
+    return 'adolescente' 
+else:
+    return 'adulto'

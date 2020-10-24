@@ -1,0 +1,3 @@
+x=float(input('qual o valor da conta'))
+V=x*1.1
+print ('Valor da conta com 10%: {0:.2f}'.format(V))

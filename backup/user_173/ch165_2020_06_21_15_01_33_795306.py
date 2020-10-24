@@ -1,0 +1,11 @@
+def mais_populoso(brasil):
+    maior_populacao = 0
+    maior_estado = ''
+    for estado in brasil:
+        populacao = 0
+        for municipio,pop in brasil[estado].items():
+            populacao += pop
+        if populacao > maior_populacao:
+            maior_populacao = populacao
+            maior_estado = estado
+        return maior_estado

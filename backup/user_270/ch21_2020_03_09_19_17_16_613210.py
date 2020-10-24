@@ -1,0 +1,5 @@
+a = float(input("Me diga quantos dias: ")
+b = float(input("Me diga quantas horas: ")
+c = float(input("Me diga quantos segundos: ")
+total = c + 3600*b + 24*3600*a
+print(total)

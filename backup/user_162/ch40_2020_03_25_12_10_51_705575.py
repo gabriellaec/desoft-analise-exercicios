@@ -1,0 +1,8 @@
+def soma_valores(l):
+    a = int(input())
+    l = []
+    while a!=0:
+        l.append(a)
+        a = int(input())
+    return sum(l)
+

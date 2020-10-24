@@ -1,0 +1,5 @@
+import math
+def calcula_elongacao(A,ϕ0,ω,t):
+    ϕ0=ϕ0*(math.pi/180)
+    ω=ω*(math.pi/180)
+    return(A*math.cos(ϕ0+ω*t))

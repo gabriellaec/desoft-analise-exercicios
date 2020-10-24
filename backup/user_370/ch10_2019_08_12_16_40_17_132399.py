@@ -1,0 +1,1 @@
+def libras_para_kg com 6 casas decimais

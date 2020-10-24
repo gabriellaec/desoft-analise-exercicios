@@ -1,0 +1,8 @@
+a = input ('Quantos dias?')
+print (a)
+b = input ('Quantas horas?')
+print (b)
+c = input ('Quantos minutos?')
+print (c)
+d = input ('Quantos segundos?')
+print (d)

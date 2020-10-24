@@ -1,0 +1,6 @@
+ref_arquvio = open("dados.csv","r")
+conteudo=ref_arquivo.read()
+ref_ = ("dados.tsv","w")
+ref_.write(conteudo)
+ref_arquivo.close()
+ref_.close()

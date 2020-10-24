@@ -1,0 +1,6 @@
+ano=int(input('escolha um ano: ')
+def eh_bissexto('ano'):
+    y=ano/4
+        if y=0
+        return True
+        else return False

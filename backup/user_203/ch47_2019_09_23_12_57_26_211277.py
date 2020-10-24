@@ -1,0 +1,15 @@
+mes=int(input('Digite o numero mes: '))
+meses=['janeiro','fevereiro','março','abril','maio','junho','julho','agosto','setembro','outubro','novembro','dezembro']
+meses[0]=1
+meses[1]=2
+meses[2]=3
+meses[3]=4
+meses[4]=5
+meses[5]=6
+meses[6]=7
+meses[7]=8
+meses[8]=9
+meses[9]=10
+meses[10]=11
+meses[11]=12
+print (mes)

@@ -1,0 +1,9 @@
+idade=int(input(' Digite sua idade: ')) 
+def classifica_idade(idade):
+    if idade<=11:
+        return('crianca') 
+    elif idade==12 or idade<=17:
+        return('adolescente') 
+    else:
+        return('adulto') 
+print (classifica_idade(idade))

@@ -1,0 +1,6 @@
+um = input("A quantidade de dias é: ")
+dois = input ("A quantidade de horas é: ")
+tres = input ("A quantidade de minutos é: ")
+quatro = input("A quantidade de segundos é: ")
+a = ((um*86400) (dois*3600) + (tres*60) + quatro)
+print("A quantidade total de segundos é {0}".fomat(a))

@@ -1,0 +1,10 @@
+def medias_por_inicial(dic):
+    media = {}
+    for i in dic:
+        e = 2
+        if i in media:
+            media[i] = (media[i] + dic[i]) / e
+            e += 1      
+        else:
+            media[i] = dic[i]        
+    return media

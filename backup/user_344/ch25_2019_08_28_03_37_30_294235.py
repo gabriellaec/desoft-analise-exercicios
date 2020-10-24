@@ -1,0 +1,6 @@
+preco= int(input("quntos km?"))
+if preco <= 200:
+    valor=preco*0.5
+else:
+    valor= 100 + preco*0.45
+print('Valor é {:.2f}'.format(valor))

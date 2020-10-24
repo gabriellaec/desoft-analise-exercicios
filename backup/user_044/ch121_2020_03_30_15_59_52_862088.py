@@ -1,0 +1,12 @@
+def subtracao_de_listas(lista1,lista2):
+    ls=[]
+    i=0
+    n=len(lista1)
+    j=0
+    m=len(lista2)
+    while i<=n:
+        while j<=m:
+            if lista1[i]==lista2[j]:
+                j+=1
+            
+            

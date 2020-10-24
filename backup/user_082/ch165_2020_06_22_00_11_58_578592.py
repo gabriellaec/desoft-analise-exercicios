@@ -1,0 +1,12 @@
+def mais_populoso(estados):
+    maior_estado = 0
+    populacao = 0
+    nome_maior_estado = 0
+    for estado in estados:
+        for cidade in estado:
+            populacao += estado[cidade]
+
+            if populacao > maior_estado:
+                maior_estado = populacao
+                nome_maior_estado = estado
+    return nome_maior_estado

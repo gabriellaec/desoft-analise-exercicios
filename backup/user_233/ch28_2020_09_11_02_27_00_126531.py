@@ -1,0 +1,8 @@
+contagem = 0
+soma = 0
+
+while contagem < 100:
+    soma += 1 / 2 ** contagem
+
+print(soma)
+

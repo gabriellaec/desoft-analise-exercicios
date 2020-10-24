@@ -1,0 +1,11 @@
+a = []
+b = input("Escreva uma palavra:")
+while b != "fim":
+    a.append(b)
+    b = input("Escreva uma palavra:")
+i=0
+while i < len(a):
+    b = a[i]
+    if b[0] == "a":
+		print (b)
+    i+=1

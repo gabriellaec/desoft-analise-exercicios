@@ -1,0 +1,3 @@
+dicionario={}
+
+lista=dicionario.items()

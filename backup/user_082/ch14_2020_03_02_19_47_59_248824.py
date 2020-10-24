@@ -1,0 +1,8 @@
+import math
+
+print (math.pi)
+
+def calcula_gaussiana (x, mi, sigma):
+    part1= 1 / (sigma * (2 * math.pi) ** (1/2)
+    part2= (math.exp(-0.5*((x-mi)/sigma)**2))
+    return parte1 * parte2

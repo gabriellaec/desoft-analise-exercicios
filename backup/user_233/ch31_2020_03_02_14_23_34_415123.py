@@ -1,0 +1,9 @@
+def eh_primo(n):
+    
+    if n == 0 or n == 1: return False
+    if n % 2 == 0: return False
+    
+    divisor = 3
+    while True:
+        if divisor == n: return True
+        if n % divisor: return False

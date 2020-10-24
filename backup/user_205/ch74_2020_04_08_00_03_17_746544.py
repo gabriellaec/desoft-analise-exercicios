@@ -1,0 +1,1 @@
+def conta_bigramas(string):

@@ -1,0 +1,14 @@
+def classifica_idade(x):
+    if x<11;
+       return 'crianca'
+    elif x<=17;
+       return 'adolescente'
+    else; 
+       return 'adulto'
+x=10
+print (classifica_idade(x))
+
+  
+           
+
+
