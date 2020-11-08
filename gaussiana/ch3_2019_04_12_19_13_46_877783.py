@@ -1,0 +1,4 @@
+import math
+def calculadora_gaussiana(x,μ,σ):
+    f= (1/(σ*math.sqrt(2*math.pi)))exp(-0.5*((x - μ)/σ)**2)
+    return f
